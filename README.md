@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# 이명재
+## 23.03.23 4주차  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### 학습내용  
+- rrr  
+  rrrr
 
-## Available Scripts
 
-In the project directory, you can run:
+#### 작성코드(선택)  
+```
 
-### `npm start`
+이번주 xxx
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+---
+---
+## 23.03.16 3주차  
 
-### `npm run build`
+#### 학습내용    
+- 개발환경 설치하기  
+  Windows 환경설정  
+  Node.js , npm(패키지매니저) 설치  
+  nodejs 설치 후 , 터미널에서 'node -- version'을 적어 설치가 잘 되었는지 확인한다.  
+  vscode 설치
+          
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 리액트란 무엇인가.  
+  React : 사용자 인터페이스를 만들기 위한 '자바스크립트 라이브러리'  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 리엑트 개념  
+  복잡한 사이틀르 쉽고 빠르게 만들고 관리하기 위해 만들어진것  
+  SPA를 쉽고 빠르게 만들수 있도록 해주는 도구  
+    
+- 동기식과 비동기식  
+  동기화의 느낌으로 이해하면 편함.  
+  동기식 : 클라이언트가 A를 요청했을때 서버에서 A자체를 내주는 과정  
+  비동기식 : 클라이언트가 A의 일부분의 변경을 요청했을때 바뀐 A자체를주는게아니라 바뀌어야하는 일부분을 내주는 과정으로 속도가 빠르다.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 리엑트의 장점   
+  빠른 업데이트와 렌더링 속도 ( Virtual DOM - 비동기식 방법 렌더링 )  
+  컴포넌트 기반의 구조 ( 재사용성이 뛰어나다. )  
+  재사용성 ( 반복작업을 줄여준다. 유지보수가 용이, 모듈에 의존성이 없다. )  
+  든든한 지원군 ( 메타에서 오픈소스 프로젝트로 관리하고있다. )  
+  활발한 지식 공유 & 커뮤니티  
+  모바일 앱 개발 가능( 리엑트 네이티브라는 프레임워크를 사용하면 크로스플랫폼 모바일앱을 개발 가능하다. )  
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 리엑트의 단점  
+  방대한 학습량  ( 자바스크립트를 공부한 경우 빠르게 학습 가능 )  
+  높은 상태 관리 복잡도 ( life cycle : 어떤앱이 디스플레이되기까지 과정중에 언제 랜더링을 해줄것인지 )  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 리엑트 시작하기  
+  create-react-app 설치  
+  ( npx create-react-app 'my-app' [예시: npx create-react-app my-app] )  
+  ( 설치 시 파일이 자동 생성 됨으로 파일을 따로 만들필요없다. )  
+  cd 'my-app' [예시 cd my-app]  
+  npm start 하면 리엑트 웹 페이지가 뜸
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+#### 작성코드(선택)  
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+이번주 xxx
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
+---
+---
+## 23.03.09 2주차
+Git 설정 및 기초 설명
 
-### Analyzing the Bundle Size
+---
+---
+---
+## 23.03.02 1주차
+OT
+# h1태그
+## h2태그
+###### h6태그
+1. adadadad
+2. dadadada
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* dadadadadadadadada
+- dadadadadadadaadad
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+``` html
+<html>
+    <div id = 'aaa' class="222">
+    </div>
+</html> 
+```

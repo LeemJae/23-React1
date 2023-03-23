@@ -2,18 +2,38 @@
 ## 23.03.23 4주차  
 
 #### 학습내용  
-- rrr  
-  rrrr
+- JSX란 무엇인가.  
+  JS와 xml,Html이 결합되어 선언이 가능하다. ( 예시 : 작성 코드 -1- 참조) 
+
+- JSX의 특징  
+  br,img 태그등 html에서의 싱글태그들은 JSX에서는 뒤에 / 를 붙여서 태그를 처리해야 정상작동한다.  
+  JSX는 자식을 포함할수있다.  
+  JSX는 Babel을 이용해서 parsing을 한다.
+
+- JSX의 역할  
+  createElemnet라는 함수를 호출하여 자바스크립트로 변환  
+  만일 JS작업을 할경우에는 직접 createElement 함수를 사용해야한다  
+  JSX는 가독성을 높여주는 역할을한다.  
+
+- JSX의 장점  
+코드가 간결해지며, 가독성이 향상된다.  
+인젝션 공격(injection Attack)이라 불리는 해킹밥을 방어함으로써 보안에 강하다.   
+
+- JSX 실습  
+-2- 참조
 
 
-#### 작성코드(선택)  
+
+#### 작성코드  
 ```
+-1- 
+const name = "Josh";
+const element = <h1>Hello, {name}</h1>;
 
-이번주 xxx
+-2-
 
 
 ```
-
 
 ---
 ---

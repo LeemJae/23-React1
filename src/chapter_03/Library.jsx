@@ -1,3 +1,6 @@
+// 북이라는 jsx파일을 받아와서 name과 numOfPage를 넣어주면 
+// book 함수의 props가 Library 애들의 값을 받아와서 반영
+
 import React from "react";
 import Book from "./Book";
 
